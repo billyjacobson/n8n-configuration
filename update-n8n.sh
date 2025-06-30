@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /home/billy_jacobson/n8n-compose
+cd /home/billy_jacobson/n8n
 # Pull new images
 docker pull n8nio/n8n:latest
 docker compose pull
