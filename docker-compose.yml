@@ -56,7 +56,7 @@ services:
       - ./local-files:/files
       - /home/billy_jacobson/.gitconfig:/home/node/.gitconfig:ro
       - /home/billy_jacobson/.ssh:/home/node/.ssh:ro
-
+      - /home/billy_jacobson/vault:/vault
 
 volumes:
   n8n_data:
